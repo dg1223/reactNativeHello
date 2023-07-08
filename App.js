@@ -6,7 +6,7 @@ const App = () => {
   return (
     <View style={styles.container} testID="container">
       <Text>Hello World</Text>
-      <Text>On branch: main</Text>
+      <Text>From branch: main</Text>
       {/* <StatusBar style="auto" /> */}
     </View>
   );
