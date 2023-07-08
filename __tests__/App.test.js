@@ -3,7 +3,12 @@ import { render } from "@testing-library/react-native";
 // import renderer from "react-test-renderer";
 // import App from "./App";
 
-const App = require("../App");
+/* By using const App = require("../App").default;, 
+you access the default export of the App module and assign 
+it to the App constant for rendering in your tests.
+Because the render function from @testing-library/react-native 
+expects a React component, not an object. */
+const App = require("../App").default;
 
 describe("test App", () => {
   it("renders 'Hello World' text to be defined", () => {
