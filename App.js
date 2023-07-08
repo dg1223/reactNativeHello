@@ -1,4 +1,3 @@
-// import { StatusBar } from "expo-status-bar";
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -8,7 +7,6 @@ const App = () => {
     <View style={styles.container} testID="container">
       <Text>Hello World</Text>
       <Text>From branch: alpha</Text>
-      {/* <StatusBar style="auto" /> */}
     </View>
   );
 };
