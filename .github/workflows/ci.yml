@@ -10,16 +10,16 @@ on:
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-        
+        uses: actions/checkout@v3
+
       - name: Install dependencies
         run: npm install
-        
+
       - name: Lint check
         run: npx eslint *.js
-        
+
       - name: Run tests
         run: npx jest
