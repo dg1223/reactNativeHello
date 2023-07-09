@@ -9,11 +9,16 @@
       }
     },
     "preview2": {
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview3": {
       "android": {
         "gradleCommand": ":app:assembleRelease"
       }
     },
-    "preview3": {
+    "preview4": {
       "developmentClient": true,
       "distribution": "internal"
     },
